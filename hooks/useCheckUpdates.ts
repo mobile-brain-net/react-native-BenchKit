@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import * as Updates from "expo-updates";
+import { useEffect, useState } from 'react';
+import * as Updates from 'expo-updates';
 
 export const useCheckUpdates = () => {
   const [isReady, setIsReady] = useState(false);
@@ -16,7 +16,7 @@ export const useCheckUpdates = () => {
             setIsReady(true);
           }
         } catch (error) {
-          console.error("Error fetching updates: ", error);
+          console.error('Error fetching updates: ', error);
           setIsReady(true);
         }
       };

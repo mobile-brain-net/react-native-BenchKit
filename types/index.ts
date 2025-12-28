@@ -1,24 +1,24 @@
-export type Units = { 
-  weight: "kg" | "lb"; 
-  distance: "km" | "mi"; 
+export type Units = {
+  weight: 'kg' | 'lb';
+  distance: 'km' | 'mi';
 };
 
-export type ToolKey = 
-  | "intervals" 
-  | "platemath" 
-  | "onerm" 
-  | "rpe" 
-  | "stopwatch" 
-  | "repcounter" 
-  | "pacesplit" 
-  | "progression";
+export type ToolKey =
+  | 'intervals'
+  | 'platemath'
+  | 'onerm'
+  | 'rpe'
+  | 'stopwatch'
+  | 'repcounter'
+  | 'pacesplit'
+  | 'progression';
 
-export type Preset = { 
-  id: string; 
-  name: string; 
-  tool: ToolKey; 
-  payload: any; 
-  createdAt: number; 
+export type Preset = {
+  id: string;
+  name: string;
+  tool: ToolKey;
+  payload: any;
+  createdAt: number;
 };
 
 export type Store = {
