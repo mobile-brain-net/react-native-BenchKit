@@ -69,10 +69,11 @@ export default function RootLayout() {
         <View
           style={{
             flex: 1,
-            justifyContent: "center",
-            alignItems: "center",
-            backgroundColor: "#fff",
-          }}>
+            justifyContent: 'center',
+            alignItems: 'center',
+            backgroundColor: '#fff',
+          }}
+        >
           <ActivityIndicator size="large" />
         </View>
       </SafeAreaProvider>
@@ -85,10 +86,11 @@ export default function RootLayout() {
         <View
           style={{
             flex: 1,
-            justifyContent: "center",
-            alignItems: "center",
-            backgroundColor: "#fff",
-          }}>
+            justifyContent: 'center',
+            alignItems: 'center',
+            backgroundColor: '#fff',
+          }}
+        >
           <ActivityIndicator size="large" />
         </View>
       </SafeAreaProvider>

@@ -48,4 +48,3 @@ export type BarType = {
   weight: number;
   name: string;
 };
-</types>
