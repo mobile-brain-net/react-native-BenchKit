@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "BenchKit",
+    "slug": "bench-kit",
+    "version": "1.2.0",
+    "scheme": "benchkit",
+    "orientation": "portrait",
+    "sdkVersion": "53.0.0",
+    "newArchEnabled": false,
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "buildNumber": "1",
+      "requireFullScreen": true,
+      "bundleIdentifier": "com.benchkit.myapp",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "UIDeviceFamily": [1],
+        "UIRequiredDeviceCapabilities": ["telephony"]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.benchkit.myapp"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "updates": {
+      "url": ""
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "extra": {
+      "eas": {
+        "projectId": ""
+      },
+      "router": {}
+    },
+    "plugins": ["expo-router", "expo-font", "expo-web-browser"],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "owner": "nadavg"
+  }
+}
