@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "BenchKit",
-    "slug": "bench-kit",
+    "name": "Best Way to Muscle Utility",
+    "slug": "best-way-to-muscle-utility",
     "version": "1.0.0",
-    "scheme": "benchkit",
+    "scheme": "bestwaytomuscleutility",
     "orientation": "portrait",
     "sdkVersion": "53.0.0",
     "newArchEnabled": false,
@@ -14,16 +14,24 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": false,
       "buildNumber": "1",
       "requireFullScreen": true,
-      "bundleIdentifier": "com.benchkit.myapp",
+      "bundleIdentifier": "com.qopybfhktfxux",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false,
-        "UIDeviceFamily": [1],
-        "UIRequiredDeviceCapabilities": ["telephony"]
+        "UIDeviceFamily": [
+          1,
+          1
+        ],
+        "UIRequiredDeviceCapabilities": [
+          "telephony",
+          "telephony"
+        ]
       }
     },
     "android": {
@@ -31,7 +39,7 @@
         "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.benchkit.myapp"
+      "package": "com.qopybfhktfxux"
     },
     "web": {
       "bundler": "metro",
@@ -39,20 +47,25 @@
       "favicon": "./assets/images/favicon.png"
     },
     "updates": {
-      "url": ""
+      "url": "https://u.expo.dev/64f3f8c8-d320-45c3-b4eb-6cbd46bab01f"
     },
     "runtimeVersion": {
       "policy": "appVersion"
     },
     "extra": {
       "eas": {
-        "projectId": ""
+        "projectId": "64f3f8c8-d320-45c3-b4eb-6cbd46bab01f"
       },
       "router": {}
     },
-    "plugins": ["expo-router", "expo-font", "expo-web-browser"],
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-web-browser"
+    ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "owner": "qopybfhktfxux"
   }
 }
