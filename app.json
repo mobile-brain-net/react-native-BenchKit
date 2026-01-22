@@ -1,16 +1,16 @@
 {
   "expo": {
     "name": "Best Way to Muscle Utility",
-    "slug": "best-way-to-muscle-utility",
+    "slug": "best-way-to-muscle-utility-second",
     "version": "1.0.0",
     "scheme": "bestwaytomuscleutility",
     "orientation": "portrait",
     "sdkVersion": "53.0.0",
     "newArchEnabled": false,
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/bwmu.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/images/icon.png",
+      "image": "./assets/images/bwmu.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,7 +21,7 @@
       "supportsTablet": false,
       "buildNumber": "1",
       "requireFullScreen": true,
-      "bundleIdentifier": "com.qopybfhktfxux",
+      "bundleIdentifier": "com.bestwaytomuscleutility-second",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false,
         "UIDeviceFamily": [
@@ -36,10 +36,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/icon.png",
+        "foregroundImage": "./assets/images/bwmu.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.qopybfhktfxux"
+      "package": "com.huwmb.bestwaytomuscleutilitysecond"
     },
     "web": {
       "bundler": "metro",
@@ -47,14 +47,14 @@
       "favicon": "./assets/images/favicon.png"
     },
     "updates": {
-      "url": "https://u.expo.dev/64f3f8c8-d320-45c3-b4eb-6cbd46bab01f"
+      "url": ""
     },
     "runtimeVersion": {
       "policy": "appVersion"
     },
     "extra": {
       "eas": {
-        "projectId": "64f3f8c8-d320-45c3-b4eb-6cbd46bab01f"
+        "projectId": "87963d88-e741-4f6c-b737-2d14812c540a"
       },
       "router": {}
     },
@@ -66,6 +66,6 @@
     "experiments": {
       "typedRoutes": true
     },
-    "owner": "qopybfhktfxux"
+    "owner": "huwmb"
   }
 }
