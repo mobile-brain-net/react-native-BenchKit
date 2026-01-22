@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Best Way to Muscle Utility",
-    "slug": "best-way-to-muscle-utility-third",
+    "slug": "best-way-to-muscle-utility-fourth",
     "version": "1.0.0",
     "scheme": "bestwaytomuscleutility",
     "orientation": "portrait",
@@ -14,28 +14,16 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": false,
       "buildNumber": "1",
       "requireFullScreen": true,
-      "bundleIdentifier": "com.qopybfhktfxux",
+      "bundleIdentifier": "com.bestwaytomuscleutilityfourth",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false,
-        "UIDeviceFamily": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "UIRequiredDeviceCapabilities": [
-          "telephony",
-          "telephony",
-          "telephony",
-          "telephony"
-        ]
+        "UIDeviceFamily": [1],
+        "UIRequiredDeviceCapabilities": ["telephony"]
       }
     },
     "android": {
@@ -43,7 +31,7 @@
         "foregroundImage": "./assets/images/bwmu2.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.bestwaytomuscleutilitythird"
+      "package": "com.bestwaytomuscleutilityfourth"
     },
     "web": {
       "bundler": "metro",
@@ -51,22 +39,18 @@
       "favicon": "./assets/images/favicon.png"
     },
     "updates": {
-      "url": "https://u.expo.dev/c868da09-a137-4edc-b627-d2a894815c32"
+      "url": "https://u.expo.dev/66c97eae-a6ac-42aa-a787-8006c36478cc"
     },
     "runtimeVersion": {
       "policy": "appVersion"
     },
     "extra": {
       "eas": {
-        "projectId": "c868da09-a137-4edc-b627-d2a894815c32"
+        "projectId": "66c97eae-a6ac-42aa-a787-8006c36478cc"
       },
       "router": {}
     },
-    "plugins": [
-      "expo-router",
-      "expo-font",
-      "expo-web-browser"
-    ],
+    "plugins": ["expo-router", "expo-font", "expo-web-browser"],
     "experiments": {
       "typedRoutes": true
     },
