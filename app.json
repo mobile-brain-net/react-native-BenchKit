@@ -1,58 +1,71 @@
 {
   "expo": {
-    "name": "BenchKit",
-    "slug": "bench-kit",
+    "name": "ElephantBetnch Kit8",
+    "slug": "elephant-bench-kit-8",
     "version": "1.0.0",
-    "scheme": "benchkit",
+    "scheme": "elephantbenchkit8",
     "orientation": "portrait",
     "sdkVersion": "53.0.0",
     "newArchEnabled": false,
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/bench_icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/images/icon.png",
+      "image": "./assets/images/bench_icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": false,
       "buildNumber": "1",
       "requireFullScreen": true,
-      "bundleIdentifier": "com.benchkit.myapp",
+      "bundleIdentifier": "com.goytpolkibverda",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false,
-        "UIDeviceFamily": [1],
-        "UIRequiredDeviceCapabilities": ["telephony"]
+        "UIDeviceFamily": [
+          1,
+          1
+        ],
+        "UIRequiredDeviceCapabilities": [
+          "telephony",
+          "telephony"
+        ]
       }
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/icon.png",
+        "foregroundImage": "./assets/images/bench_icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.benchkit.myapp"
+      "package": "com.goytpolkibverda"
     },
     "web": {
       "bundler": "metro",
       "output": "single",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/bench_icon.png"
     },
     "updates": {
-      "url": ""
+      "url": "https://u.expo.dev/5f0c5449-dcd8-438e-9d30-a06ba00ad446"
     },
     "runtimeVersion": {
       "policy": "appVersion"
     },
     "extra": {
       "eas": {
-        "projectId": ""
+        "projectId": "5f0c5449-dcd8-438e-9d30-a06ba00ad446"
       },
       "router": {}
     },
-    "plugins": ["expo-router", "expo-font", "expo-web-browser"],
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-web-browser"
+    ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "owner": "otsmb"
   }
 }
