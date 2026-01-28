@@ -7,6 +7,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import { useFocusEffect } from '@react-navigation/native';
+import { useRouter } from 'expo-router';
 import { DataStore } from '../../lib/storage';
 import { Preset } from '../../types';
 import { Card } from '../../components/Card';
@@ -25,48 +26,56 @@ import {
 const TOOL_CONFIGS = [
   {
     key: 'intervals',
+    route: '/intervals',
     title: 'Intervals Timer',
     icon: Timer,
     description: 'EMOM, AMRAP, Tabata',
   },
   {
     key: 'platemath',
+    route: '/plates',
     title: 'Plate Calculator',
     icon: Calculator,
     description: 'Load calculations',
   },
   {
     key: 'onerm',
+    route: '/onerm',
     title: '1RM Calculator',
     icon: Target,
     description: 'Max rep estimates',
   },
   {
     key: 'rpe',
+    route: '/rpe',
     title: 'RPE Converter',
     icon: Gauge,
     description: 'RPE to %1RM',
   },
   {
     key: 'stopwatch',
+    route: '/stopwatch',
     title: 'Stopwatch',
     icon: Clock,
     description: 'Lap timing',
   },
   {
     key: 'repcounter',
+    route: '/counter',
     title: 'Rep Counter',
     icon: Hash,
     description: 'Count your reps',
   },
   {
     key: 'pacesplit',
+    route: '/pace',
     title: 'Pace Calculator',
     icon: Activity,
     description: 'Running/rowing pace',
   },
   {
     key: 'progression',
+    route: '/progression',
     title: 'Progression Planner',
     icon: TrendingUp,
     description: 'Next session weights',
@@ -74,6 +83,7 @@ const TOOL_CONFIGS = [
 ];
 
 export default function HomeScreen() {
+  const router = useRouter();
   const [recentPresets, setRecentPresets] = useState<Preset[]>([]);
 
   useFocusEffect(
@@ -87,6 +97,10 @@ export default function HomeScreen() {
     await store.initialize();
     const presets = store.getPresets().slice(0, 4);
     setRecentPresets(presets);
+  };
+
+  const navigateToTool = (route: string) => {
+    router.push(route as any);
   };
 
   return (
@@ -124,7 +138,12 @@ export default function HomeScreen() {
             {TOOL_CONFIGS.map((tool) => {
               const IconComponent = tool.icon;
               return (
-                <TouchableOpacity key={tool.key} style={styles.toolCard}>
+                <TouchableOpacity
+                  key={tool.key}
+                  style={styles.toolCard}
+                  onPress={() => navigateToTool(tool.route)}
+                  activeOpacity={0.7}
+                >
                   <Card style={styles.toolCardInner}>
                     <View style={styles.toolIcon}>
                       <IconComponent size={32} color={COLORS.primary} />

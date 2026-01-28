@@ -2,15 +2,14 @@
   "expo": {
     "name": "Best Way to Muscle Utility",
     "slug": "best-way-to-muscle-utility",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "scheme": "bestwaytomuscleutility",
     "orientation": "portrait",
     "sdkVersion": "53.0.0",
-    "newArchEnabled": false,
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/bwmu.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/images/icon.png",
+      "image": "./assets/images/bwmu.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -25,18 +24,16 @@
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false,
         "UIDeviceFamily": [
-          1,
           1
         ],
         "UIRequiredDeviceCapabilities": [
-          "telephony",
           "telephony"
         ]
       }
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/icon.png",
+        "foregroundImage": "./assets/images/bwmu.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.qopybfhktfxux"
@@ -44,7 +41,7 @@
     "web": {
       "bundler": "metro",
       "output": "single",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/bwmu.png"
     },
     "updates": {
       "url": "https://u.expo.dev/64f3f8c8-d320-45c3-b4eb-6cbd46bab01f"
